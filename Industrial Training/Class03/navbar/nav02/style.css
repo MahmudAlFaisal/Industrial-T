@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./v2osk-IHKBF23A_iw-unsplash.jpg);
+    -webkit-background-size: cover ;
+    background-size: cover;
+    background-position: initial;
+    height: 100vh;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -0-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+}
+.logo{
+    cursor: pointer;
+}
+.nav-area{
+    list-style: none;
+}
+.nav-area li{
+    display: inline-block;
+    padding: 0px 15px;
+    text-transform: uppercase;
+} 
+.nav-area li a{
+    transform: .3s;
+    color: rgb(67, 20, 238);
+}
+.nav-area li a:hover{
+    color: rgb(1, 34, 9);
+}
+.btn-area{
+    cursor: pointer;
+    color: rgb(13, 150, 20);
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: #5c1f22;
+}
